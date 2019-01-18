@@ -1,26 +1,3 @@
-Material Design for Bootstrap
+#Jerry Agiliga
 
-version: MDB Pro 4.5.15
-
-Documentation:
-https://mdbootstrap.com/
-
-Getting started:
-https://mdbootstrap.com/docs/jquery/getting-started/download/
-
-Tutorials:
-MDB-Bootstrap: https://mdbootstrap.com/education/bootstrap/
-MDB-Wordpress: https://mdbootstrap.com/education/wordpress/
-
-Templates:
-https://mdbootstrap.com/templates/
-
-License:
-https://mdbootstrap.com/general/license/
-
-Support:
-https://mdbootstrap.com/forums/forum/support/
-
-Contact:
-office@mdbootstrap.com
-
+![portfolio pg](https://user-images.githubusercontent.com/8379016/51363277-4d47fc00-1aa5-11e9-877c-807b21f572e5.png)
