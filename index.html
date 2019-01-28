@@ -1,300 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Jerry Agiliga | FullStack Developer</title>
-      <!-- Font Awesome -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!-- Bootstrap core CSS -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <!-- Material Design Bootstrap -->
-      <link href="css/mdb.min.css" rel="stylesheet">
-      <!-- Animate on scroll-->
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      <!-- Your custom styles (optional) -->
-      <link href="css/style.min.css" rel="stylesheet">
-      <!-- Your custom styles (optional) -->
-      <link href="css/style.css" rel="stylesheet">
-   </head>
-   <body>
-      <!--Arrow up-->
-      <div class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;">
-         <a href="#home" class="btn-floating btn-large red waves-effect waves-light">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Jerry Agiliga | FullStack Developer</title>
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Bootstrap core CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- Material Design Bootstrap -->
+   <link href="css/mdb.min.css" rel="stylesheet">
+   <!-- Animate on scroll-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- Your custom styles (optional) -->
+   <link href="css/style.min.css" rel="stylesheet">
+   <!-- Your custom styles (optional) -->
+   <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+   <!--Arrow up-->
+   <div class="fixed-action-btn smooth-scroll" style="right: 24px;">
+      <a href="#home" class="btn-floating btn-large red waves-effect waves-light">
          <i class="fa fa-arrow-up"></i>
-         </a>
-      </div>
-      <!--/Arrow up-->
-      <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" >
-         <div class="container">
-            <!--Brand-->
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="40" alt="logo"></a>
-            <button class="navbar-toggler navbar-togg" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      </a>
+   </div>
+   <!--/Arrow up-->
+   <!-- Navbar -->
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+         <!--Brand-->
+         <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="40" alt="logo"></a>
+         <button class="navbar-toggler navbar-togg" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
-               <ul class="navbar-nav">
-                  <li class="nav-item active">
-                     <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#skill">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#experience">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#education">Education</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#work">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#hireme">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                     <a data-toggle="tooltip" data-placement="bottom" title="Shoot me a mail" class="nav-link material-tooltip-email animated wobble infinite " href="mailto:hello@jerryagiliga.com"><i class="fa fa-envelope fa-2x " aria-hidden="true"></i></a>
-                  </li>
-               </ul>
-            </div>
+         </button>
+         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <ul class="navbar-nav">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#home">About<span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#work">Portfolio</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#skill">Skills</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#hireme">Contact</a>
+               </li>
+               <li class="nav-item">
+                  <a data-toggle="tooltip" data-placement="bottom" title="Shoot me a mail" class="nav-link material-tooltip-email animated wobble infinite "
+                     href="mailto:hello@jerryagiliga.com"><i class="fa fa-envelope fa-2x " aria-hidden="true"></i></a>
+               </li>
+            </ul>
          </div>
-      </nav>
-      <!-- Navbar -->
-      <!-- Full Page Intro -->
-      <!--Section: Home-->
-      <section class="slidee" id="home" style="padding-top: 70px;">
-         <div class="slidee img-fluid" style="background-image: url('img/bg.jpg'); background-repeat: no-repeat; background-size: cover;  ">
-            <!-- Mask & flexbox options-->
-            <div class=" slidee  d-flex justify-content-center align-items-center">
-               <!-- Content -->
-               <div class="row" style="margin-top:10px;">
-                  <div class="col-lg-12 col-md-10">
-                     <h1 class="mytxt card-title default-text text-center mb-0 pt-md-5 pt-5 font-weight-bold display-3 ">FULLSTACK <span class="typing"></span> </h1>
-                     <div class=" d-flex justify-content-center ">
-                        <button type="button" class="btn mybtn btn-white waves-effect animated fadeInLeft text-uppercase"><a style="color:black;" href="mailto:hello@jerryagiliga.com">HIRE ME <span class="fa fa-paper-plane ml-1"></span></a></button>
-                        <button type="button" class="btn mybtn btn-white waves-effect animated fadeInRight text-uppercase">Resume<i class="fa fa-download ml-1"></i></button>
-                     </div>
+      </div>
+   </nav>
+   <!-- Navbar -->
+   <!-- Full Page Intro -->
+   <!--Section: Home-->
+   <section class="slidee" id="home" style="padding-top: 70px;">
+      <div class="slidee img-fluid" style="background-image: url('img/bg.jpg'); background-repeat: no-repeat; background-size: cover;  ">
+         <!-- Mask & flexbox options-->
+         <div class=" slidee  d-flex justify-content-center align-items-center">
+            <!-- Content -->
+            <div class="row" style="margin-top:10px;">
+               <div class="col-lg-12 col-md-10">
+                  <h1 class="mytxt card-title default-text text-center mb-0 pt-md-5 pt-5 font-weight-bold display-3 ">FULLSTACK
+                     <span class="typing"></span> </h1>
+                  <div class=" d-flex justify-content-center ">
+                     <button type="button" class="btn mybtn btn-white waves-effect animated fadeInLeft text-uppercase"><a
+                           style="color:black;" href="mailto:hello@jerryagiliga.com">HIRE ME <span class="fa fa-paper-plane ml-1"></span></a></button>
+                     <button type="button" class="btn mybtn btn-white waves-effect animated fadeInRight text-uppercase">Resume<i
+                           class="fa fa-download ml-1"></i></button>
                   </div>
                </div>
-               <!-- Content -->
             </div>
-            <!-- Mask & flexbox options-->
+            <!-- Content -->
          </div>
-      </section>
-      <!--Section: Home-->
-      <!-- Full Page Intro -->
-      <!--Main layout-->
-      <main>
-         <div class="container">
-            <!--Section: About me-->
-            <section id="about" style=" padding-top: 70px;" >
-               <!--Grid row-->
-               <div class="row">
-                  <!--Grid column-->
-                  <div class="col-md-6 col-lg-6 mb-4 wow animated bounce" >
-                     <!-- about me-->
-                     <h4 class="aboutme wow animated bounce ">ABOUT</h4>
-                     <blockquote class="blockquote bq-primary">
-                        <p class="mb-0 wow animated zoomIn">I'm a fullstack web developer based in New Jersey. </p>
-                     </blockquote>
-                     <p class="text-justify wow animated zoomIn">  I have maintained, developed and launched multiple projects from scratch, carrying  the development of its back-end and front-end codebases.</p>
-                     <p class="text-justify wow animated zoomIn">I love learning new things and taking on new challenges. When I am not coding, reading tweets, taking pictures or listening to a podcasts , you'll find me walking my dog (Jake) or working out at the gym. </p>
-                     </p>
-                     <!-- about me -->
-                     <!-- CTA -->
-                     <a target="_blank" href="https://jerryagiliga-resume.pdf" class="btn btn-default btn-lg waves-effect wow animated fadeInLeft waves-light">Download Resume
-                     <i class="fa fa-download ml-1"></i>
-                     </a>
-                     <button type="button" class="btn btn-lg btn-white wow animated fadeInRight waves-effect"><a style="color:black;" href="mailto:hello@jerryagiliga.com">  HIRE ME <span class="fa fa-paper-plane ml-1"></span></a></button>
-                     <br>
-                     <br>
-                     <div>
-                        <img src="img/sign.png" alt="signature" height="80" width="210">
-                     </div>
-                     <br>
-                     <!-- Grid row -->
-                     <div class="row d-flex justify-content-left" >
-                        <!-- Grid column -->
-                        <!--Facebook-->
-                        <a class="btn-floating btn-md btn-fb default-color wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-github"></i></a>
-                        <!--Twitter-->
-                        <a class="btn-floating btn-md btn-tw wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-twitter"></i></a>
-                        <!--Linkedin-->
-                        <a class="btn-floating btn-md btn-li wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-linkedin"></i></a>
-                        <!--Instagram-->
-                        <a class="btn-floating btn-md btn-ins wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-codepen"></i></a>
-                        <!-- Grid column -->
-                     </div>
-                  </div>
-                  <!--/Grid column-->
-                  <!--Grid colum -->
-                  <div class="col-md-6 col-lg-6 mb-4 " >
-                     <h4 class="h3-responsive mt-5 font-weight-bold text-uppercase grey-text wow animated fadeInRight" >Workflow Process</h4>
-                     <br>
-                     <br>
-                     <img class="img-fluid wow animated zoomIn"  src="img/workflow.png" >
-                  </div>
-                  <!--Grid column-->
-               </div>
-               <!--Grid row-->
-            </section>
-            <!--Section: About me-->
-            <hr class="my-5">
-            <!--Section: Skills-->
-            <section id="skill" style=" padding-top: 70px;">
-               <div>
-                  <h4 class="aboutme mb-3 wow fadeInLeft">SKILLS</h4>
-                  <p class="text-justify wow zoomIn">I specialize in Full Stack Development which allows me to work on any project with the full scope in mind and I am also confident in my ability to learn any new programs quickly. I also take online courses to strengthen my IT Skills,
-                     & stay up to date with the latest technology trends. 
+         <!-- Mask & flexbox options-->
+      </div>
+   </section>
+   <!--Section: Home-->
+   <!-- Full Page Intro -->
+   <!--Main layout-->
+   <main>
+      <div class="container">
+         <!--Section: About me-->
+         <section id="about" style=" padding-top: 30px;">
+            <!--Grid row-->
+            <div class="row">
+               <!--Grid column-->
+               <div class="col-md-1 col-lg-1"></div>
+               <div class="col-md-10 col-lg-10 wow animated bounce ">
+                  <!-- about me-->
+                  <blockquote class="blockquote bq-primary">
+                     <p class="mb-0 wow animated zoomIn">I'm a fullstack web developer based in New Jersey. </p>
+                  </blockquote>
+                  <p class="text-justify wow animated zoomIn"> I have maintained, developed and launched multiple
+                     projects from scratch, carrying the development of its back-end and front-end codebases.I love
+                     learning new things and taking on new challenges.
+                     When I am not coding, reading tweets, taking pictures or listening to a podcasts , you'll find me
+                     walking my dog (Jake) or working out at the gym. </p>
                   </p>
-               </div>
-               <!--Grid row-->
-               <div class="row mt-5">
-                  <!--Grid column-->
-                  <div class="col-lg-6 col-md-6"  >
-                     <h5 class="text-uppercase font-weight-bold">Java</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 70%;visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">60%</div>
-                     </div>
-                     <h5 class="text-uppercase font-weight-bold">JavaScript</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 80%;visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
-                     </div>
-                     <h5 class="text-uppercase font-weight-bold">Python</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 70%; visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                     </div>
-                     <h5 class="text-uppercase font-weight-bold">Angular js</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 70%; visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                     </div>
-                     <h5 class="text-uppercase font-weight-bold">Bootstrap</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 85%; visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                     </div>
-                  </div>
-                  <!--/Grid column-->
-                  <!--Grid column-->
-                  <div class="col-lg-6 col-md-6">
-                     <h5 class="text-uppercase font-weight-bold">React</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 75%; visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                     </div>
-                     <h5 class="text-uppercase font-weight-bold">Mongo Db</h5>
-                     <div class="progress md-progress " style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 70%; visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-                     </div>
-                     <h5 class="text-uppercase font-weight-bold">Express</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 75%; visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                     </div>
-                     <h5 class="text-uppercase font-weight-bold">node js</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 65%; visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
-                     </div>
-                     <h5 class="text-uppercase font-weight-bold">mysql</h5>
-                     <div class="progress md-progress" style="height: 5px">
-                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 75%; visibility: visible;animation-duration: 1.5s; height: 20px" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
-                     </div>
-                  </div>
-                  <!--/Grid column-->
+                  <!-- about me -->
+                  <!-- CTA -->
+                  <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-default btn-lg waves-effect wow animated fadeInLeft waves-light">Download
+                     Resume
+                     <i class="fa fa-download ml-1"></i>
+                  </a>
+                  <button type="button" class="btn btn-lg btn-white wow animated fadeInRight waves-effect"><a style="color:black;"
+                        href="mailto:hello@jerryagiliga.com"> HIRE ME <span class="fa fa-paper-plane ml-1"></span></a></button>
+                  <br>
                   <br>
                   <div>
-                     <div class="col-lg-10 col-md-10 mt-5">
-                        <h3 class="grey-text wow fadeInLeft">other languages, deploy & CMS</h3>
-                        <p class=" wow zoomIn"> PHP, Photoshop, illustrator, WordPress, Shopify, Git, GitHub, SEO, Responsive Design, OOP, Cross-Browser Dev, CSS, HTML5, XML Flexbox, JQuery, Spring, Maven etc</p>
-                     </div>
+                     <img src="img/sign.png" alt="signature" height="80" width="210">
+                  </div>
+                  <br>
+                  <!-- Grid row -->
+                  <div class="row d-flex justify-content-left">
+                     <!-- Grid column -->
+                     <!--Facebook-->
+                     <a class="btn-floating btn-md btn-fb default-color wow animated lightSpeedIn" type="button" role="button"><i
+                           class="fa fa-github"></i></a>
+                     <!--Twitter-->
+                     <a class="btn-floating btn-md btn-tw wow animated lightSpeedIn" type="button" role="button"><i
+                           class="fa fa-twitter"></i></a>
+                     <!--Linkedin-->
+                     <a class="btn-floating btn-md btn-li wow animated lightSpeedIn" type="button" role="button"><i
+                           class="fa fa-linkedin"></i></a>
+                     <!--Instagram-->
+                     <a class="btn-floating btn-md btn-ins wow animated lightSpeedIn" type="button" role="button"><i
+                           class="fa fa-codepen"></i></a>
+                     <!-- Grid column -->
                   </div>
                </div>
-               <!--/Grid row-->
-            </section>
-            <!--/Section: Skills-->
-            <hr class="my-5">
-            <!--Section: Experience-->
-            <section id="experience" style=" padding-top: 70px;">
-               <div >
-                  <h4 class="aboutme mb-3 wow animated bounce">EXPERIENCE</h4>
-                  <p class="text-justify wow animated zoomIn">I have over 5 years experience in structuring, developing and implementing interactive web apps. I am comfortable and passionate about adopting ideas and bringing them to life through technology. 
-                  </p>
-               </div>
-               <div class="row" >
-                  <div class="col-md-8 col-lg-8 offset-md-2 offset-sm-2" >
-                     <ul class="timeline">
-                        <li>
-                           <h5 class="font-weight-bold wow animated bounce" >Devshack Alpha</h5>
-                           <div class="d-flex justify-content-between" >
-                              <div class="title">Web Developer & Cofounder</div>
-                              <div class="flex-row-reverse time">Sept 2015 - Present</div>
-                           </div>
-                           <p class="text-justify wow animated zoomIn">Collaborated with art directors, project managers, digital agencies, startups, and companies on projects ranging from web design, Wordpress theme development, Landing pages, front-end maintenance, and search engine optimization
-                              that resulted in substantial revenue increase with our company.
-                           </p>
-                        </li>
-                        <li>
-                           <h5 class="font-weight-bold wow animated bounce">IQ Systems Solutions Limited Nigeria</h5>
-                           <div class="d-flex justify-content-between">
-                              <div class="title">Graphic Designer & Web Developer</div>
-                              <div class="flex-row-reverse time">Nov 2012 - Aug 2015</div>
-                           </div>
-                           <p class="text-justify wow animated zoomIn">Collaborated with art directors, project managers, digital agencies, startups, and companies on projects ranging from web design, Wordpress theme development, Landing pages, front-end maintenance, and search engine optimization
-                              that resulted in substantial revenue increase with our company.
-                           </p>
-                        </li>
-                        <li>
-                           <h5 class="font-weight-bold wow animated bounce">Freelancing</h5>
-                           <div class="d-flex justify-content-between">
-                              <div class="title">Freelancing</div>
-                              <div class="flex-row-reverse time">Oct 2010 - Present</div>
-                           </div>
-                           <p class="text-justify wow animated zoomIn">Freelance Web developer with accountability for marketing and selling services , managing all clients relationships, controlling budget and developing websites and web based applications for corporate clients.</p>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </section>
-            <!--Section: Experience-->
-            <hr class="mb-5">
-            <!--Section: Education-->
-            <section id="education" style=" padding-top: 70px;">
-               <h4 class="aboutme mb-5 wow animated fadeInLeft">EDUCATION</h4>
-               <!--Card Group-->
-               <div class="card-group mb-5">
-                  <div class="card wow animated zoomIn" >
-                     <div class="card-body">
-                        <h5 class="card-title font-weight-bold" style="margin-bottom: 0px; color: #2bbbab;">BSc Computer Science</h5>
-                        <p style="margin-bottom: 0px;">University of Bedfordshire, London</p>
-                        <p>2007 - 2010</p>
-                        <p class="card-text">The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, XML and more. During my time in college, I specialized in Web Development. where I learnt about the importance of OOP, web, user experience
-                           and design.
-                        </p>
-                     </div>
-                  </div>
-                  <div class="card wow animated zoomIn" >
-                     <div class="card-body">
-                        <h5 class="card-title font-weight-bold" style="margin-bottom: 0px; color: #2bbbab;">Advanced Diploma in Software Engineering</h5>
-                        <p style="margin-bottom: 0px;">Aptech Compputer Education </p>
-                        <p>2005 - 2007</p>
-                        <p class="card-text">I joined Aptech Computer Education to gain knowledge in software development & establish myself in the IT industry. It gave me motivation & support to achieve success.</p>
-                     </div>
-                  </div>
-               </div>
-               <!--/Card Group-->
-            </section>
-            <!--/Section: Education-->
-            <hr class="mb-5">
-            <!--Section: Portfolio-->
-            <section id="work" style=" padding-top: 70px;">
+               <div class="col-md-1 col-lg-1"></div>
+               <!--/Grid column-->
+               <!--Grid colum -->
+
+               <!--Grid column-->
+            </div>
+            <!--Grid row-->
+         </section>
+         <!--Section: About me-->
+
+         <!--Section: Portfolio-->
+         <section id="work" style=" padding-top: 100px;">
             <h4 class="aboutme mb-5 text-uppercase wow animated bounce">Portfolio</h4>
             <br>
             <!-- Grid row -->
             <div class="row text-center">
                <!-- Grid column -->
-               <div class="col-lg-4 col-md-12 mb-lg-0 mb-4" >
+               <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
                   <!--Featured image-->
                   <div class="view overlay rounded z-depth-1 wow animated shake">
                      <img src="img/tmcfolder/tmc.jpg" class="img-fluid" alt="Sample project image">
@@ -305,14 +171,16 @@
                   <!--Excerpt-->
                   <div class="card-body pb-0">
                      <h4 class="font-weight-bold my-3 wow animated zoomIn">TweakMyContent</h4>
-                     <p class="grey-text text-justify wow animated zoomIn">A Leading editorial content & services brand provider help you raise the bar & give your document that extra tweak it needs to fly.
+                     <p class="grey-text text-justify wow animated zoomIn">A Leading editorial content & services brand
+                        provider help you raise the bar & give your document that extra tweak it needs to fly.
                      </p>
-                     <a href="tweakmycontent.html" class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i> View project</a>
+                     <a href="tweakmycontent.html" class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i>
+                        View project</a>
                   </div>
                </div>
                <!-- Grid column -->
                <!-- Grid column -->
-               <div class="col-lg-4 col-md-6 mb-md-0 mb-4" >
+               <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
                   <!--Featured image-->
                   <div class="view overlay rounded z-depth-1 wow animated shake">
                      <img src="img/osusu.jpg" class="img-fluid" alt="Sample project image">
@@ -323,26 +191,29 @@
                   <!--Excerpt-->
                   <div class="card-body pb-0">
                      <h4 class="font-weight-bold my-3 wow animated zoomIn">Osusu Mobile</h4>
-                     <p class="grey-text text-justify wow animated zoomIn">Enhancing Financial Inclusion in Africa by providing microfinance to small businesses with a focus on microsavings</p>
-                     <a href="https://osusumobile.com/" target="_blank" class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i> View project</a>
+                     <p class="grey-text text-justify wow animated zoomIn">Enhancing Financial Inclusion in Africa by
+                        providing microfinance to small businesses with a focus on microsavings</p>
+                     <a href="https://osusumobile.com/" target="_blank" class="btn btn-default btn-md wow animated bounce"><i
+                           class="fa fa-clone left"></i> View project</a>
                   </div>
                </div>
                <!-- Grid column -->
                <!-- Grid column -->
-               <div class="col-lg-4 col-md-6" >
+               <div class="col-lg-4 col-md-6">
                   <!--Featured image-->
                   <div class="view overlay rounded z-depth-1 wow animated shake">
-                     <img src="img/colorcard.png" class="img-fluid" alt="Sample project image">
+                     <img src="img/youtubeclone.jpg" class="img-fluid" alt="Sample project image">
                      <a>
                         <div class="mask rgba-white-slight"></div>
                      </a>
                   </div>
                   <!--Excerpt-->
                   <div class="card-body pb-0">
-                     <h4 class="font-weight-bold my-3 wow animated zoomIn">Project 3</h4>
-                     <p class="grey-text text-justify wow animated zoomIn">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.
+                     <h4 class="font-weight-bold my-3 wow animated zoomIn">YouTube Homepage Clone</h4>
+                     <p class="grey-text text-justify wow animated zoomIn">Converted a photshop slice design to a cool layout in the browser Using HTML5, CSS3 & JQuery..
                      </p>
-                     <a class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i> View project</a>
+                     <a href="https://jtopz.github.io/youtubeclone.github.io/" target="_blank" class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i> View
+                        project</a>
                   </div>
                </div>
                <!-- Grid column -->
@@ -351,7 +222,7 @@
             <br>
             <div class="row text-center">
                <!-- Grid column -->
-               <div class="col-lg-4 col-md-12 mb-lg-0 mb-4" >
+               <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
                   <!--Featured image-->
                   <div class="view overlay rounded z-depth-1  wow animated shake">
                      <img src="img/colorcard.png" class="img-fluid" alt="Sample project image">
@@ -362,14 +233,16 @@
                   <!--Excerpt-->
                   <div class="card-body pb-0">
                      <h4 class="font-weight-bold my-3 wow animated zoomIn">Project 4</h4>
-                     <p class="grey-text text-justify wow animated zoomIn">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.
+                     <p class="grey-text text-justify wow animated zoomIn">Temporibus autem quibusdam et aut officiis
+                        debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.
                      </p>
-                     <a class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i> View project</a>
+                     <a class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i> View
+                        project</a>
                   </div>
                </div>
                <!-- Grid column -->
                <!-- Grid column -->
-               <div class="col-lg-4 col-md-6 mb-md-0 mb-4" >
+               <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
                   <!--Featured image-->
                   <div class="view overlay rounded z-depth-1 wow animated shake">
                      <img src="img/colorcard.png" class="img-fluid" alt="Sample project image">
@@ -380,9 +253,11 @@
                   <!--Excerpt-->
                   <div class="card-body pb-0">
                      <h4 class="font-weight-bold my-3  wow animated zoomIn">Project 5</h4>
-                     <p class="grey-text text-justify wow animated zoomIn">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.
+                     <p class="grey-text text-justify wow animated zoomIn">Temporibus autem quibusdam et aut officiis
+                        debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.
                      </p>
-                     <a class="btn btn-default btn-md  wow animated bounce"><i class="fa fa-clone left"></i> View project</a>
+                     <a class="btn btn-default btn-md  wow animated bounce"><i class="fa fa-clone left"></i> View
+                        project</a>
                   </div>
                </div>
                <!-- Grid column -->
@@ -398,119 +273,322 @@
                   <!--Excerpt-->
                   <div class="card-body pb-0">
                      <h4 class="font-weight-bold my-3 wow animated zoomIn">Project 6</h4>
-                     <p class="grey-text text-justify wow animated zoomIn">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.
+                     <p class="grey-text text-justify wow animated zoomIn">Temporibus autem quibusdam et aut officiis
+                        debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.
                      </p>
-                     <a class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i> View project</a>
+                     <a class="btn btn-default btn-md wow animated bounce"><i class="fa fa-clone left"></i> View
+                        project</a>
                   </div>
                </div>
                <!-- Grid column -->
             </div>
             <!--/Section: Portfolio-->
+
+            <!--Section: Skills-->
+            <section id="skill" style=" padding-top: 100px;">
+               <div>
+                  <h4 class="aboutme mb-3 wow fadeInLeft">SKILLS</h4>
+                  <p class="text-justify wow zoomIn">I specialize in Full Stack Development which allows me to work on
+                     any project with the full scope in mind and I am also confident in my ability to learn any new
+                     programs quickly. I also take online courses to strengthen my IT Skills,
+                     & stay up to date with the latest technology trends.
+                  </p>
+               </div>
+               <!--Grid row-->
+               <div class="row mt-5">
+                  <!--Grid column-->
+                  <div class="col-lg-6 col-md-6">
+                     <h5 class="text-uppercase font-weight-bold">Java</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar" role="progressbar" style="width: 70%; height: 20px" aria-valuenow="25"
+                           aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h5 class="text-uppercase font-weight-bold">JavaScript</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 80%;visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h5 class="text-uppercase font-weight-bold">Python</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 70%; visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h5 class="text-uppercase font-weight-bold">Angular js</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 70%; visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h5 class="text-uppercase font-weight-bold">Bootstrap</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 85%; visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <!--/Grid column-->
+                  <!--Grid column-->
+                  <div class="col-lg-6 col-md-6">
+                     <h5 class="text-uppercase font-weight-bold">React</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 75%; visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h5 class="text-uppercase font-weight-bold">Mongo Db</h5>
+                     <div class="progress md-progress " style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 70%; visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h5 class="text-uppercase font-weight-bold">Express</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 75%; visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h5 class="text-uppercase font-weight-bold">node js</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 65%; visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h5 class="text-uppercase font-weight-bold">mysql</h5>
+                     <div class="progress md-progress" style="height: 20px">
+                        <div class="progress-bar wow slideInLeft" role="progressbar" style="width: 75%; visibility: visible;animation-duration: 1.5s; height: 20px"
+                           aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                  </div>
+                  <!--/Grid column-->
+                  <br>
+                  <div>
+                     <div class="col-lg-10 col-md-10 mt-5">
+                        <h3 class="grey-text wow fadeInLeft">other languages, deploy & CMS</h3>
+                        <p class=" wow zoomIn"> PHP, Photoshop, illustrator, WordPress, Shopify, Git, GitHub, SEO,
+                           Responsive Design, OOP, Cross-Browser Dev, CSS, HTML5, XML Flexbox, JQuery, Spring, Maven
+                           etc</p>
+                     </div>
+                  </div>
+               </div>
+               <!--/Grid row-->
+            </section>
+            <!--/Section: Skills-->
+
+            <!--Section: Experience-->
+            <section id="experience" style=" padding-top: 100px;">
+               <div>
+                  <h4 class="aboutme mb-3 wow animated bounce">EXPERIENCE</h4>
+                  <p class="text-justify wow animated zoomIn">I have over 5 years experience in structuring, developing
+                     and implementing interactive web apps. I am comfortable and passionate about adopting ideas and
+                     bringing them to life through technology.
+                  </p>
+               </div>
+               <div class="row">
+                  <div class="col-md-8 col-lg-8 offset-md-2 offset-sm-2">
+                     <ul class="timeline">
+                        <li>
+                           <h5 class="font-weight-bold wow animated bounce">Codeixo </h5>
+                           <div class="d-flex justify-content-between">
+                              <div class="title">Web Developer & Founder</div>
+                              <div class="flex-row-reverse time">Sept 2016 - Present</div>
+                           </div>
+                           <p class="text-justify wow animated zoomIn">Collaborated with art directors, project
+                              managers, digital agencies, startups, and companies on projects ranging from web design,
+                              Wordpress theme development, Landing pages, front-end maintenance, and search engine
+                              optimization
+                              that resulted in substantial revenue increase with our company.
+                           </p>
+                        </li>
+                        <li>
+                              <h5 class="font-weight-bold wow animated bounce">Mittag Technologies London</h5>
+                              <div class="d-flex justify-content-between">
+                                 <div class="title">Wordpress Developer</div>
+                                 <div class="flex-row-reverse time">Oct 2015 - Feb 2017</div>
+                              </div>
+                              <ul class="text-justify wow animated zoomIn">
+                                 <li>Created websites using WordPress and specialized plugins for SEO</li>
+                                   <li>Coding of custom Wordpress theme and template files using HTML, CSS, PHP, and Bootstrap 3 framework.</li>
+                                   <li>Deployment from local environment to staging then to production using Git and a private repo on BitBucket.</li>
+                                   <li> Created PPC campaigns to run on Google AdWords and other ad networks</li>
+                                    <li>Tracked campaign results using Google Analytics and StatCounter.</li>
+                              </ul>
+                           </li>
+                        <li>
+                           <h5 class="font-weight-bold wow animated bounce">IQ Systems Solutions Limited Nigeria</h5>
+                           <div class="d-flex justify-content-between">
+                              <div class="title">Graphic Designer & Web Developer</div>
+                              <div class="flex-row-reverse time">Nov 2012 - Aug 2015</div>
+                           </div>
+                           <p class="text-justify wow animated zoomIn">I Worked as a consultant and collaborated with designers to create clean simple
+                              interfaces with intuitive interactions and experiences. Also worked with the sales and marketing team in developing a creative 
+                              marketing communication materials and the development/management of social media technology strategy to facilitate relationships that
+                              will lead to bigger market share and more interactive relationship with customers.
+                           </p>
+                        </li>
+                        <li>
+                           <h5 class="font-weight-bold wow animated bounce">Freelancing</h5>
+                           <div class="d-flex justify-content-between">
+                              <div class="title">Freelancing</div>
+                              <div class="flex-row-reverse time">Oct 2010 - Present</div>
+                           </div>
+                           <p class="text-justify wow animated zoomIn">Freelance Web developer with accountability for
+                              marketing and selling services , managing all clients relationships, controlling budget
+                              and developing websites and web based applications for corporate clients.</p>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+            <!--Section: Experience-->
+
+            <!--Section: Education-->
+            <section id="education" style=" padding-top: 70px; margin-bottom: 190px;">
+               <h4 class="aboutme mb-5 pb-5 wow animated fadeInLeft" >EDUCATION</h4>
+               <!--Card Group-->
+               <div class="card-group mb-5">
+                  <div class="card wow animated zoomIn">
+                     <div class="card-body">
+                        <h5 class="card-title font-weight-bold" style="margin-bottom: 0px; color: #2bbbab;">BSc
+                           Computer Science</h5>
+                        <p style="margin-bottom: 0px;">University of Bedfordshire, London</p>
+                        <p>2007 - 2010</p>
+                        <p class="card-text">The education was mainly Java-based programming, but I also learned about
+                           SQL, PHP, MVC, XML and more. During my time in college, I specialized in Web Development.
+                           where I learnt about the importance of OOP, web, user experience
+                           and design.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="card wow animated zoomIn">
+                     <div class="card-body">
+                        <h5 class="card-title font-weight-bold" style="margin-bottom: 0px; color: #2bbbab;">Advanced
+                           Diploma in Software Engineering</h5>
+                        <p style="margin-bottom: 0px;">Aptech Compputer Education </p>
+                        <p>2005 - 2007</p>
+                        <p class="card-text">I joined Aptech Computer Education to gain knowledge in software
+                           development & establish myself in the IT industry. It gave me motivation & support to
+                           achieve success.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-10 col-md-10 ">
+                     <h3 class="grey-text md-5 wow fadeInLeft">Professional Developments</h3>
+                     <p class=" wow zoomIn"><i class="fa fa-check"></i> Front-End JavaScript Frameworks: AngularJS by The Hong Kong University of Science and Technology on Coursera. Certificate earned at Friday, July 14, 2017 8:29 PM GMT - <a href="https://www.coursera.org/account/accomplishments/certificate/3GC8GW7YFB6L" target="_blank">View Certificate</a></p>
+                     <p class=" wow zoomIn"><i class="fa fa-check"></i> Front-End Web UI Frameworks and Tools by The Hong Kong University of Science and Technology on Coursera. Certificate earned at Monday, April 17, 2017 5:40 PM GMT - <a href="https://www.coursera.org/account/accomplishments/certificate/GK6WERYG6WKW" target="_blank">View Certificate</a></p>
+                     <p class=" wow zoomIn"><i class="fa fa-check"></i> HTML, CSS and JavaScript by The Hong Kong University of Science and Technology on Coursera. Certificate earned at Monday, April 17, 2017 5:40 PM GMT - <a href="https://www.coursera.org/account/accomplishments/certificate/J3ZZTTZ746TK" target="_blank">View Certificate</a></p>
+                    
+                  
+                  </div>
+                  
+               
+               <!--/Card Group-->
+            </section>
+            <!--/Section: Education-->
             <hr class="my-4">
             <!--Section: HIRE ME-->
             <section class="contact-section" id="hireme" style=" padding-top: 70px;">
-               <br>
-               <!-- Form with header -->
-               <div class="">
-                  <!-- Grid row -->
-                  <div class="row">
-                     <!-- Grid column -->
-                     <div class="col-md-12">
-                        <div class="card-body  text-center h-100 dimgrey">
-                           <h2 class="h1-responsive font-weight-bold text-center mb-5 wow animated headShake" >Have a cool project in mind?</h2>
-                           <h5 class="wow animated zoomIn">Click on the button below and let's talk about it.</h5>
-                           <br>
-                           <br>
-                           <button type="button" style="margin-bottom:50px;" class="btn btn-outline-hireme waves-effect wow animated swing"><a style="color:#2bbbab;" href="mailto:hello@jerryagiliga.com"></a><i class="fa fa-paper-plane " aria-hidden="true"></i>  HIRE ME</a></button>
-                           <!-- Grid row -->
-                           <div class="row d-flex justify-content-center">
-                              <!-- Grid column -->
-                              <!--Facebook-->
-                              <a class="btn-floating btn-md btn-fb default-color wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-github"></i></a>
-                              <!--Twitter-->
-                              <a class="btn-floating btn-md btn-tw wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-twitter"></i></a>
-                              <!--Linkedin-->
-                              <a class="btn-floating btn-md btn-li wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-linkedin"></i></a>
-                              <!--Instagram-->
-                              <a class="btn-floating btn-md btn-ins wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-codepen"></i></a>
-                              <!-- Grid column -->
+                  <br>
+                  <!-- Form with header -->
+                  <div class="">
+                     <!-- Grid row -->
+                     <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-12">
+                           <div class="card-body  text-center h-100 dimgrey">
+                              <h2 style=" padding-bottom: 20px; margin-top: 20px;">Living & Learning one day at a time. </h2>
+                              <h2 class="h1-responsive font-weight-bold text-center  wow animated headShake" >Have a cool project in mind?</h2>
+                              <h5 class="wow animated zoomIn">Click on the button below and let's talk about it.</h5>
+                              <br>
+                              <br>
+                              <button type="button" style="margin-bottom:50px;" class="btn btn-outline-hireme waves-effect wow animated swing"><a style="color:#2bbbab;" href="mailto:hello@jerryagiliga.com"></a><i class="fa fa-paper-plane " aria-hidden="true"></i>  HIRE ME</a></button>
+                              <!-- Grid row -->
+                              <div class="row d-flex justify-content-center" style=" padding-top: 20px; margin-top: 20px;">
+                                 <!-- Grid column -->
+                                 <!--Facebook-->
+                                 <a class="btn-floating btn-lg btn-fb default-color wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-2x fa-github"></i></a>
+                                 <!--Twitter-->
+                                 <a class="btn-floating btn-lg btn-tw wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-2x fa-twitter"></i></a>
+                                 <!--Linkedin-->
+                                 <a class="btn-floating btn-lg btn-li wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-2x fa-linkedin"></i></a>
+                                 <!--Instagram-->
+                                 <a class="btn-floating btn-lg btn-ins wow animated lightSpeedIn" type="button" role="button"><i class="fa fa-2x fa-codepen"></i></a>
+                                 <!-- Grid column -->
+                              </div>
+                              <!-- Grid row -->
                            </div>
-                           <!-- Grid row -->
                         </div>
+                        <!-- Grid column -->
                      </div>
-                     <!-- Grid column -->
+                     <!-- Grid row -->
                   </div>
-                  <!-- Grid row -->
-               </div>
-               <!-- /Form with header -->
-            </section>
-            <!--/Section: HIRE ME-->
-         </div>
-      </main>
-      <!--Main layout-->
-      <!--Footer-->
-      <footer class="page-footer font-small " style="background-color:#249290;">
-         <!-- Copyright -->
-         <div class="footer-copyright text-center py-3">© 2018 Copyright | Made with <i class="fa fa-heart animated heartBeat infinite" style="color:rgb(255, 255, 255);"></i>  by Jerry Agiliga.
-         </div>
-         <!-- Copyright -->
-         <!-- Scrollspy -->
-         <div class="dotted-scrollspy">
-            <ul class="nav smooth-scroll clearfix d-none d-sm-flex flex-column">
-               <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
-               <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
-               <li class="nav-item"><a class="nav-link" href="#skill"><span></span></a></li>
-               <li class="nav-item"><a class="nav-link" href="#experience"><span></span></a></li>
-               <li class="nav-item"><a class="nav-link" href="#education"><span></span></a></li>
-               <li class="nav-item"><a class="nav-link" href="#work"><span></span></a></li>
-               <li class="nav-item"><a class="nav-link" href="#hireme"><span></span></a></li>
-            </ul>
-         </div>
-      </footer>
-      <!--/.Footer-->
-      <!-- SCRIPTS -->
-      <!-- JQuery -->
-      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-      <!-- Bootstrap tooltips -->
-      <script type="text/javascript" src="js/popper.min.js"></script>
-      <!-- Bootstrap core JavaScript -->
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-      <!-- MDB core JavaScript -->
-      <script type="text/javascript" src="js/mdb.min.js"></script>
-      <!-- Typed JS JavaScript -->
-      <script type="text/javascript" src="js/typed.min.js"></script>
-      <!-- NavbarScroll JavaScript -->
-      <script type="text/javascript" src="js/navbarscroll.js"></script>
-      <!-- Gallery JavaScript -->
-      <script type="text/javascript" src="js/gallery.js"></script>
-      <!-- Gallery JavaScript -->
-      <script type="text/javascript" src="js/scrollingnav.js"></script>
-      <!-- Automate on Stroll-->
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <!-- tooltip-->
-      <script>
-         $(document).ready(function() {
+                  <!-- /Form with header -->
+               </section>
+               <!--/Section: HIRE ME-->
+
+
+      </div>
+   </main>
+   <!--Main layout-->
+   <!--Footer-->
+   <footer class="page-footer font-small " style="background-color:#249290;">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright | Made with <i class="fa fa-heart animated heartBeat infinite"
+            style="color:rgb(255, 255, 255);"></i> by Jerry Agiliga.
+      </div>
+      <!-- Copyright -->
+      <!-- Scrollspy -->
+      <div class="dotted-scrollspy">
+         <ul class="nav smooth-scroll clearfix d-none d-sm-flex flex-column">
+            <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#skill"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#education"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#work"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#hireme"><span></span></a></li>
+         </ul>
+      </div>
+   </footer>
+   <!--/.Footer-->
+   <!-- SCRIPTS -->
+   <!-- JQuery -->
+   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="js/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="js/mdb.min.js"></script>
+   <!-- Typed JS JavaScript -->
+   <script type="text/javascript" src="js/typed.min.js"></script>
+   <!-- NavbarScroll JavaScript -->
+   <script type="text/javascript" src="js/navbarscroll.js"></script>
+   <!-- Gallery JavaScript -->
+   <script type="text/javascript" src="js/gallery.js"></script>
+   <!-- Gallery JavaScript -->
+   <script type="text/javascript" src="js/scrollingnav.js"></script>
+   <!-- Automate on Stroll-->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!-- tooltip-->
+   <script>
+      $(document).ready(function () {
          //carousel options
          $('#quote-carousel').carousel({
-         pause: true, interval: 10000,
+            pause: true, interval: 10000,
          });
-         });
-      </script>
-      <script>
-         AOS.init();
-      </script>
-      <script>
-         // Tooltips Initialization
-         $(function () {
+      });
+   </script>
+   <script>
+      AOS.init();
+   </script>
+   <script>
+      // Tooltips Initialization
+      $(function () {
          $('[data-toggle="tooltip"]').tooltip()
-         })
-      </script>
-      <script>new WOW().init();</script>
-      <script>
-         var typed = new Typed('.typing', {
-           strings: [" ", "DEV"],
-            typeSpeed: 60
-            });
-      </script>
-   </body>
+      })
+   </script>
+   <script>new WOW().init();</script>
+   <script>
+      var typed = new Typed('.typing', {
+         strings: [" ", "DEV"],
+         typeSpeed: 60
+      });
+   </script>
+
+</body>
+
 </html>
